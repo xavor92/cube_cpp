@@ -12,5 +12,11 @@
 
 void test_gpio_class_exists(void)
 {
-	gpio_pin test_obj;
+	GPIO test_obj;
+}
+
+void test_gpio_has_init(void)
+{
+	GPIO test_pin;
+	test_pin.init();
 }
